@@ -75,7 +75,7 @@ function questionSolver(page,question,answer){
         }).then(function(){
             return WaiteAndClick("textarea.custominput",page);
         }).then(function(){
-            return page.type("textarea.custominput","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",/*{delay:50}*/);
+            return page.type("textarea.custominput","answer",/*{delay:50}*/);
         }).then(function(){
             let controlIsPressed=page.keyboard.down("Control");
             return controlIsPressed;
