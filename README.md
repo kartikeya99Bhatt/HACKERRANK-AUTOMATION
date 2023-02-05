@@ -1,6 +1,6 @@
 <h1>HackerRank Automation</h1>
 <hr>
- OBJECTIVE
+ <h3> Tools Used: </h3>
 Hackerrank is fully automated using  Puppeteer  (npm libraries) it will summit the question and will show the result 
   <hr>
   <h3> Tools Used: </h3>
